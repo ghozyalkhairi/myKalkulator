@@ -24,6 +24,9 @@ export const calcReducer = (state, action) => {
   }
   switch (action.type) {
     case "ISI_NILAI":
+      if (!state.nilai && action.payload === 0) {
+        return state
+      }
       return {
         ...state,
         nilai: state.nilai ? `${state.nilai}${action.payload}` : action.payload,
@@ -35,7 +38,10 @@ export const calcReducer = (state, action) => {
             : `${state.nilai}${action.payload}`.substring(1),
       }
     case "ISI_OPERATOR":
-      if (state.nilai === state.operand && state.isiOperator) {
+      if (
+        (state.nilai === state.operand && state.isiOperator) ||
+        (!state.operand && !state.nilai)
+      ) {
         return state
       }
       return {
