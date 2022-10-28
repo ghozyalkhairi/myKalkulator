@@ -1,0 +1,25 @@
+{
+  "name": "kalkulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "public/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "daisyui": "^2.33.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "postcss": "^8.4.18",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.2.1"
+  }
+}
