@@ -1,8 +1,7 @@
 {
   "name": "kalkulator",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "My Kalkulator",
   "source": "public/index.html",
   "scripts": {
     "dev": "parcel",
