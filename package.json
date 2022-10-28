@@ -2,7 +2,7 @@
   "name": "kalkulator",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "source": "public/index.html",
   "scripts": {
     "dev": "parcel",
