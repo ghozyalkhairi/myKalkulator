@@ -7,7 +7,7 @@ const Footer = () => {
         flex justify-center items-center
       "
       >
-        <h2 className="text-xl opacity-80">
+        <h2 className="text-lg opacity-80">
           Made with <span className="text-red-500">❤</span> by Ghozy Alkhairi
         </h2>
       </div>
